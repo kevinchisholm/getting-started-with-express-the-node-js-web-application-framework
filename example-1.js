@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 	+ '<html>'
 		+ '<head>'
 			+ '<meta charset=utf-8>'
-			+ '<title>My Web Page</title>'
+			+ '<title>Example Web Page</title>'
 		+ '</head>'
 		+ '<body>'
 			+ '<h1>It works!</h1>'
