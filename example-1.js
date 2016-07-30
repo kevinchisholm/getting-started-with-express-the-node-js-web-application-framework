@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 	+ '<html>'
 		+ '<head>'
 			+ '<meta charset=utf-8>'
-			+ '<title>Example Web Page</title>'
+			+ '<title>Express.js example</title>'
 		+ '</head>'
 		+ '<body>'
 			+ '<h1>This is example # 1</h1>'
