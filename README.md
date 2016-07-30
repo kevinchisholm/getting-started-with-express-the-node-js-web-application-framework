@@ -26,3 +26,7 @@ What you need to run this app:
 
 * node example-2.js
 
+#### Example # 3:
+
+* node example-3.js
+
