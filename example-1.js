@@ -1,7 +1,11 @@
-var express = require('express');
-var app = express();
+//reuire the express nodejs module
+var express = require('express'),
+	//set an instance of exress
+	app = express();
 
+//for any requests to the root of the application
 app.get('/', function (req, res) {
+	//construct the HTML that we will return
 	var HTML = ''
 	+ '<!DOCTYPE html>'
 	+ '<html>'
@@ -10,13 +14,15 @@ app.get('/', function (req, res) {
 			+ '<title>Example Web Page</title>'
 		+ '</head>'
 		+ '<body>'
-			+ '<h1>It works!</h1>'
+			+ '<h1>This is example # 1</h1>'
 		+ '</body>'
 	+ '</html>';
 
-  res.send(HTML);
+	//rethrn the HTML to the user's browser
+	res.send(HTML);
 });
 
+//wait for a connection
 app.listen(3000, function () {
   console.log('Server is running. Point your browser to: http://localhost:3000');
 });
