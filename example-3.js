@@ -8,6 +8,7 @@ var express = require('express'),
 //tell express that www is the root of our public web folder
 app.use(express.static(path.join(__dirname, 'www')));
 
+//tell express what to do when the /about route is requested
 app.get('/about',function(req,res){
   res.sendFile(path.join(__dirname + '/www/about.html'));
 });
